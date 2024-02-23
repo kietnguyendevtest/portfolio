@@ -1,3 +1,5 @@
+@import "src/assets/fonts/stylesheet.css";
+
 *,
 ::before,
 ::after {
@@ -19,7 +21,7 @@ body {
 
 body {
     font-size: 1.6rem;
-    font-family: Lato, sans-serif;
+    font-family: Poppins, sans-serif;
     color: var(--text-color);
     background: var(--body-bg);
 }
@@ -54,6 +56,10 @@ select {
 input,
 textarea {
     background: transparent;
+}
+
+textarea {
+    resize: none;
 }
 
 input:-webkit-autofill,

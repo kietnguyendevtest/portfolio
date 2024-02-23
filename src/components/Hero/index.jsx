@@ -19,7 +19,7 @@ function Hero() {
     }, []);
 
     return (
-        <div id="home" style={{ paddingTop: "100px", height: "100vh" }}>
+        <div className="hero">
             <p style={{ fontSize: "4rem" }}>
                 I'm a <span ref={el}></span>
             </p>

@@ -1,18 +1,51 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "~/components/Header";
-import Hero from "./components/Hero";
 import About from "~/components/About";
 import Projects from "~/components/Projects";
 
 import "~/assets/scss/main.scss";
 
 function App() {
+    const [showGoToTop, setShowGoToTop] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setShowGoToTop(window.scrollY >= 100);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
         <>
             <Header />
-            <Hero />
-            <About />
-            <Projects />
+
+            <main className="container">
+                <About />
+                <Projects />
+            </main>
+
+            {showGoToTop && (
+                <button
+                    className="btn-scrolltop"
+                    onClick={() => {
+                        setShowGoToTop(false);
+                        window.scrollTo(0, 0);
+                    }}
+                >
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                            fill="rgba(255,255,255,1)"
+                            d="M11.9997 10.8284L7.04996 15.7782L5.63574 14.364L11.9997 8L18.3637 14.364L16.9495 15.7782L11.9997 10.8284Z"
+                        ></path>
+                    </svg>
+                </button>
+            )}
         </>
     );
 }
