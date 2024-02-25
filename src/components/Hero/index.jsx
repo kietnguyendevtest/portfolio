@@ -6,7 +6,11 @@ function Hero() {
 
     useEffect(() => {
         const options = {
-            strings: ["Software Engineer", "Web Developer", "UI/UX Designer"],
+            strings: [
+                "Software Engineer",
+                "Front-end Developer",
+                "UI/UX Designer",
+            ],
             typeSpeed: 50,
             backSpeed: 50,
             loop: true,
@@ -20,9 +24,12 @@ function Hero() {
 
     return (
         <div className="hero">
-            <p style={{ fontSize: "4rem" }}>
-                I'm a <span ref={el}></span>
-            </p>
+            <div className="hero-content">
+                <div className="hero-title">HI, I AM NGUYEN MINH KIET</div>
+                <div className="hero-textrun">
+                    I'm a <span ref={el}></span>
+                </div>
+            </div>
         </div>
     );
 }
