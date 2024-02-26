@@ -25,11 +25,18 @@ function Hero() {
     return (
         <div className="hero">
             <div className="hero-content">
-                <div className="hero-title">HI, I AM NGUYEN MINH KIET</div>
+                <div className="hero-title">
+                    <h1>HI, I'M NGUYEN&nbsp;MINH&nbsp;KIET</h1>
+                </div>
                 <div className="hero-textrun">
                     I'm a <span ref={el}></span>
                 </div>
             </div>
+            <a className="hero-footer" href="#about">
+                <span className="mouse-btn">
+                    <span className="mouse-scroll"></span>
+                </span>
+            </a>
         </div>
     );
 }

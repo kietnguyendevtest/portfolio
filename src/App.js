@@ -4,6 +4,7 @@ import About from "~/components/About";
 import Projects from "~/components/Projects";
 
 import "~/assets/scss/main.scss";
+import Skills from "./components/Skills";
 
 function App() {
     const [showGoToTop, setShowGoToTop] = useState(false);
@@ -26,6 +27,7 @@ function App() {
 
             <main className="container">
                 <About />
+                <Skills />
                 <Projects />
             </main>
 
