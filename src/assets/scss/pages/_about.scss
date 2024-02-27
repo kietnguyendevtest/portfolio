@@ -2,13 +2,23 @@
     padding: 170px 0;
 }
 
-.about__heading {
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 500;
-    margin-bottom: 70px;
-}
-
 .about_img {
     width: 100%;
+}
+
+.about-title {
+    font-size: 2rem;
+    line-height: 30px;
+}
+
+.about-desc {
+    margin-top: 35px;
+
+    li + li {
+        margin-top: 23px;
+    }
+
+    svg {
+        width: 63px;
+    }
 }

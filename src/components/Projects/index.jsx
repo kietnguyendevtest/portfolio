@@ -3,6 +3,9 @@ import React from "react";
 function Projects() {
     return (
         <div id="projects" style={{ height: "1000px" }}>
+            <h2 className="hash-title">
+                <span>OPEN SOURCE PROJECTS</span>
+            </h2>
             <ul>
                 <li>
                     <a

@@ -1,4 +1,10 @@
 import React, { useState, useEffect } from "react";
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
 import Header from "~/components/Header";
 import About from "~/components/About";
 import Projects from "~/components/Projects";
@@ -7,6 +13,8 @@ import "~/assets/scss/main.scss";
 import Skills from "./components/Skills";
 
 function App() {
+    library.add(fas, far, fab);
+
     const [showGoToTop, setShowGoToTop] = useState(false);
 
     useEffect(() => {
