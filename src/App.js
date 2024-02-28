@@ -6,11 +6,11 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 
 import Header from "~/components/Header";
-import About from "~/components/About";
-import Projects from "~/components/Projects";
+import About from "~/pages/About";
+import Skills from "./pages/Skills";
+import Projects from "~/pages/Projects";
 
 import "~/assets/scss/main.scss";
-import Skills from "./components/Skills";
 
 function App() {
     library.add(fas, far, fab);
@@ -33,7 +33,7 @@ function App() {
         <>
             <Header />
 
-            <main className="container">
+            <main>
                 <About />
                 <Skills />
                 <Projects />
