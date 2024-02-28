@@ -4,7 +4,7 @@ import { Card, CardContent, CardHover } from "~/components/Card";
 
 function Projects() {
     return (
-        <div id="projects" className="projects-container">
+        <section id="projects" className="projects-container">
             <div className="container">
                 <h2 className="hash-title">
                     <span>OPEN SOURCE PROJECTS</span>
@@ -22,17 +22,19 @@ function Projects() {
                                     <FontAwesomeIcon icon="fa-solid fa-computer" />
                                     <p>Grocery Mart</p>
                                     <span>Ecommerce website</span>
-
                                 </CardContent>
                                 <CardHover>
                                     <ul>
                                         <li>
-                                            <FontAwesomeIcon icon="fa-solid fa-toolbox" />
+                                            <FontAwesomeIcon icon="fa-solid fa-briefcase" />
                                             <span>Grocery Mart</span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-regular fa-comment-dots" />
-                                            <span>Build and develop ecommerce&nbsp;website</span>
+                                            <span>
+                                                Build and develop
+                                                ecommerce&nbsp;website
+                                            </span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-solid fa-code" />
@@ -58,17 +60,19 @@ function Projects() {
                                     <FontAwesomeIcon icon="fa-solid fa-computer" />
                                     <p>CeloBank</p>
                                     <span>Landing website</span>
-
                                 </CardContent>
                                 <CardHover>
                                     <ul>
                                         <li>
-                                            <FontAwesomeIcon icon="fa-solid fa-toolbox" />
+                                            <FontAwesomeIcon icon="fa-solid fa-briefcase" />
                                             <span>Grocery Mart</span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-regular fa-comment-dots" />
-                                            <span>Build and develop ecommerce&nbsp;website</span>
+                                            <span>
+                                                Build and develop
+                                                ecommerce&nbsp;website
+                                            </span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-solid fa-code" />
@@ -94,17 +98,19 @@ function Projects() {
                                     <FontAwesomeIcon icon="fa-solid fa-computer" />
                                     <p>Besnik</p>
                                     <span>Landing website</span>
-
                                 </CardContent>
                                 <CardHover>
                                     <ul>
                                         <li>
-                                            <FontAwesomeIcon icon="fa-solid fa-toolbox" />
+                                            <FontAwesomeIcon icon="fa-solid fa-briefcase" />
                                             <span>Grocery Mart</span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-regular fa-comment-dots" />
-                                            <span>Build and develop ecommerce&nbsp;website</span>
+                                            <span>
+                                                Build and develop
+                                                ecommerce&nbsp;website
+                                            </span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-solid fa-code" />
@@ -130,17 +136,19 @@ function Projects() {
                                     <FontAwesomeIcon icon="fa-solid fa-computer" />
                                     <p>Dental Care</p>
                                     <span>Landing website</span>
-
                                 </CardContent>
                                 <CardHover>
                                     <ul>
                                         <li>
-                                            <FontAwesomeIcon icon="fa-solid fa-toolbox" />
+                                            <FontAwesomeIcon icon="fa-solid fa-briefcase" />
                                             <span>Grocery Mart</span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-regular fa-comment-dots" />
-                                            <span>Build and develop ecommerce&nbsp;website</span>
+                                            <span>
+                                                Build and develop
+                                                ecommerce&nbsp;website
+                                            </span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-solid fa-code" />
@@ -170,12 +178,15 @@ function Projects() {
                                 <CardHover>
                                     <ul>
                                         <li>
-                                            <FontAwesomeIcon icon="fa-solid fa-toolbox" />
+                                            <FontAwesomeIcon icon="fa-solid fa-briefcase" />
                                             <span>Grocery Mart</span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-regular fa-comment-dots" />
-                                            <span>Build and develop ecommerce&nbsp;website</span>
+                                            <span>
+                                                Build and develop
+                                                ecommerce&nbsp;website
+                                            </span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-solid fa-code" />
@@ -205,12 +216,15 @@ function Projects() {
                                 <CardHover>
                                     <ul>
                                         <li>
-                                            <FontAwesomeIcon icon="fa-solid fa-toolbox" />
+                                            <FontAwesomeIcon icon="fa-solid fa-briefcase" />
                                             <span>Grocery Mart</span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-regular fa-comment-dots" />
-                                            <span>Build and develop ecommerce&nbsp;website</span>
+                                            <span>
+                                                Build and develop
+                                                ecommerce&nbsp;website
+                                            </span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-solid fa-code" />
@@ -240,12 +254,15 @@ function Projects() {
                                 <CardHover>
                                     <ul>
                                         <li>
-                                            <FontAwesomeIcon icon="fa-solid fa-toolbox" />
+                                            <FontAwesomeIcon icon="fa-solid fa-briefcase" />
                                             <span>Grocery Mart</span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-regular fa-comment-dots" />
-                                            <span>Build and develop ecommerce&nbsp;website</span>
+                                            <span>
+                                                Build and develop
+                                                ecommerce&nbsp;website
+                                            </span>
                                         </li>
                                         <li>
                                             <FontAwesomeIcon icon="fa-solid fa-code" />
@@ -262,7 +279,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

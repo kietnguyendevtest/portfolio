@@ -1,16 +1,61 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Lottie from "react-lottie";
-import * as animationData from "~/assets/images/about.json";
+import * as animationData from "~/assets/images/skills.json";
 
 function Skills() {
     return (
-        <section id="skills" className="about">
+        <section id="skills" className="skills-container">
             <div className="container">
                 <h2 className="hash-title">
                     <span>WHAT I DO</span>
                 </h2>
                 <div className="row row-cols-2">
+                    <div className="col">
+                        <p className="skills-title">
+                            Crazy full stack developer who wants to explore
+                            every tech stack.
+                        </p>
+                        <ul className="skills-desc">
+                            <li>
+                                <div className="skills-group">
+                                    <span>Front-end</span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        &#8226;&nbsp; ReactJS, NextJS
+                                        (TypeScript)
+                                    </li>
+                                    <li>&#8226;&nbsp; HTML, CSS, JavaScript</li>
+                                    <li>
+                                        &#8226;&nbsp; Responsive, SASS (7-1
+                                        pattern)
+                                    </li>
+                                    <li>&#8226;&nbsp; Semantic, SEO basic</li>
+                                    <li>
+                                        &#8226;&nbsp; Boostrap, Material UI,
+                                        AG-Grid, Telerik UI,...
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div className="skills-group">
+                                    <span>Back-end</span>
+                                </div>
+                                <ul>
+                                    <li>&#8226;&nbsp; C# .NET, NodeJS, OOP</li>
+                                    <li>
+                                        &#8226;&nbsp; Web API, Web-socket
+                                        SignalR
+                                    </li>
+                                    <li>
+                                        &#8226;&nbsp; Database: SQL Server
+                                        (Store Procedure, Function,
+                                        Trigger,...), Postgres, MongoDB
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                     <div className="col">
                         <figure>
                             <Lottie
@@ -23,49 +68,8 @@ function Skills() {
                                     },
                                 }}
                                 height={400}
-                                width={400}
                             />
                         </figure>
-                    </div>
-                    <div className="col">
-                        <p className="about-title">
-                            A passionate Full Stack Software Developer who loves
-                            clean, simple & unique design. Strengths are Back-end
-                            web application development and Front-end technology.
-                        </p>
-                        <ul className="about-desc">
-                            <li>
-                                <FontAwesomeIcon icon="fa-solid fa-user" />
-                                <span>Nguyen Minh Kiet</span>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon icon="fa-solid fa-venus-mars" />
-                                <span>Male</span>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon icon="fa-solid fa-cake-candles" />
-                                <span>10/09/1998</span>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon icon="fa-solid fa-phone-flip" />
-                                <span>0964 4567 24</span>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon icon="fa-solid fa-envelope" />
-                                <span>kietnguyen.contact@gmail.com</span>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon icon="fa-solid fa-graduation-cap" />
-                                <span>
-                                    HUIT - Ho Chi Minh City University of Industry
-                                    and Trade
-                                </span>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon icon="fa-solid fa-location-dot" />
-                                <span>Ho Chi Minh City, Viet Nam</span>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>

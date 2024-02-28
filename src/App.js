@@ -11,6 +11,7 @@ import Skills from "./pages/Skills";
 import Projects from "~/pages/Projects";
 
 import "~/assets/scss/main.scss";
+import Contact from "./pages/Contact";
 
 function App() {
     library.add(fas, far, fab);
@@ -37,6 +38,7 @@ function App() {
                 <About />
                 <Skills />
                 <Projects />
+                <Contact />
             </main>
 
             {showGoToTop && (
