@@ -37,6 +37,10 @@ function Hero() {
                 <span className="mouse-btn">
                     <span className="mouse-scroll"></span>
                 </span>
+                <div className="chevrons">
+                    <div className="chevrondown"></div>
+                    <div className="chevrondown"></div>
+                </div>
             </a>
         </div>
     );
