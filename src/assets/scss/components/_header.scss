@@ -29,6 +29,10 @@
         justify-content: space-between;
         align-items: center;
         height: 80px;
+
+        @include abstracts.screen(md) {
+            justify-content: center;
+        }
     }
 }
 
@@ -42,6 +46,10 @@
 .navbar__list {
     display: flex;
     gap: 45px;
+
+    @include abstracts.screen(lg) {
+        gap: 35px;
+    }
 }
 
 .navbar__item {
@@ -88,21 +96,39 @@
 .header-bar {
     z-index: 7;
     position: fixed;
-    top: 15px;
-    left: 15px;
 
     .menu-bar {
-        font-size: 3rem;
+        display: inline-block;
         cursor: pointer;
+        padding: 10px 14px 14px;
+        background-color: var(--primary-color);
+        border-bottom-right-radius: 36px;
+        font-size: 3rem;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+            rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }
 
-    .menu-checkbox:checked ~ .menu-overlay {
-        opacity: 1;
-        visibility: visible;
-    }
+    .menu-checkbox {
+        display: none;
 
-    .menu-checkbox:checked ~ .menu-drawer {
-        transform: translateX(0);
+        &:checked {
+            & ~ .menu-overlay {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            & ~ .menu-drawer {
+                transform: translateX(0);
+
+                .navbar {
+                    display: block !important;
+                }
+
+                .header-action {
+                    display: block !important;
+                }
+            }
+        }
     }
 
     .menu-overlay {
@@ -145,5 +171,13 @@
                 }
             }
         }
+
+        @include abstracts.screen(md) {
+            inset: 0 40% 0 0;
+        }
+    }
+
+    @include abstracts.screen(md) {
+        display: block !important;
     }
 }

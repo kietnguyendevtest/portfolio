@@ -7,9 +7,9 @@ function Skills() {
         <section id="skills" className="skills-container">
             <div className="container">
                 <h2 className="hash-title">
-                    <span>WHAT I DO</span>
+                    <a href="#skills">WHAT I DO</a>
                 </h2>
-                <div className="row row-cols-2">
+                <div className="row row-cols-2 row-cols-lg-1">
                     <div className="col">
                         <p className="skills-title">
                             Crazy full stack developer who wants to explore
@@ -57,7 +57,7 @@ function Skills() {
                         </ul>
                     </div>
                     <div className="col">
-                        <figure>
+                        <figure className="skills-img">
                             <Lottie
                                 options={{
                                     loop: true,
@@ -67,7 +67,6 @@ function Skills() {
                                         preserveAspectRatio: "xMidYMid slice",
                                     },
                                 }}
-                                height={400}
                             />
                         </figure>
                     </div>

@@ -1,8 +1,17 @@
+@use "../abstracts";
+
 .skills-container {
     min-height: 100vh;
     padding: 170px 0;
-
     background-color: var(--body-bg-bold);
+
+    @include abstracts.screen(lg) {
+        padding: 100px 0;
+    }
+
+    @include abstracts.screen(md) {
+        padding-bottom: 30px;
+    }
 }
 
 .skills-title {
@@ -13,7 +22,7 @@
 
 .skills-group {
     position: relative;
-    padding-top: 20px;
+    padding-top: 28px;
 
     &::before,
     &::after {
@@ -58,5 +67,13 @@
         margin-left: 4px;
         font-size: 1.5rem;
         font-weight: 300;
+        line-height: 24px;
+    }
+}
+
+.skills-img {
+    div,
+    svg {
+        max-height: 430px;
     }
 }

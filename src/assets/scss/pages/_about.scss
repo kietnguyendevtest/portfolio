@@ -1,6 +1,12 @@
+@use "../abstracts";
+
 .about-container {
     min-height: 100vh;
     padding: 170px 0;
+
+    @include abstracts.screen(lg) {
+        padding: 100px 0;
+    }
 }
 
 .about-title {
@@ -11,11 +17,28 @@
 .about-desc {
     margin-top: 35px;
 
+    li {
+        display: flex;
+    }
+
     li + li {
         margin-top: 23px;
     }
 
     svg {
         width: 63px;
+    }
+
+    span {
+        flex: 1;
+        line-height: 24px;
+    }
+}
+
+.about-img {
+    div,
+    svg {
+        max-width: 400px;
+        max-height: 400px;
     }
 }

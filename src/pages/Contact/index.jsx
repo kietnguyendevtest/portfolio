@@ -7,25 +7,28 @@ function Contact() {
         <section id="contact" className="contact-container">
             <div className="container">
                 <h2 className="hash-title">
-                    <span>REACH OUT TO ME!</span>
+                    <a href="#contact">CONTACT ME</a>
                 </h2>
-                <div className="row row-cols-2">
+                <div className="row row-cols-2 row-cols-lg-1 gy-4">
                     <div className="col">
-                        <p className="contact-title">
-                            Discuss a project or just want to say hi? <br />
-                            My inbox is open for all.
-                        </p>
+                        <div>
+                            <p className="contact-title">
+                                &#10077; Discuss a project or just want to say
+                                hi? <br />
+                                My inbox is open for all. &#10078;
+                            </p>
 
-                        <ul>
-                            <li>
-                                <b>Email:</b> kietnguyen.contact@gmail.com
-                            </li>
-                            <li>
-                                <b>Phone:</b> 0964 4567 24
-                            </li>
-                        </ul>
+                            <ul>
+                                <li>
+                                    <b>Email:</b> kietnguyen.contact@gmail.com
+                                </li>
+                                <li>
+                                    <b>Phone:</b> 0964 4567 24
+                                </li>
+                            </ul>
 
-                        <Social />
+                            <Social />
+                        </div>
                     </div>
                     <div className="col">
                         <div className="avatar">

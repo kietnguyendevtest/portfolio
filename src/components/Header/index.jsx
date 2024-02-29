@@ -29,7 +29,7 @@ function Header(props) {
                 </a>
 
                 {/* Navbar */}
-                <nav className="navbar">
+                <nav className="navbar d-md-none">
                     <ul className="navbar__list">
                         <li className="navbar__item">
                             <a href="#about">About</a>
@@ -47,7 +47,7 @@ function Header(props) {
                 </nav>
 
                 {/* Action */}
-                <div className="header-action">
+                <div className="header-action d-md-none">
                     <label className="ui-switch">
                         <input
                             type="checkbox"
@@ -60,44 +60,54 @@ function Header(props) {
                     </label>
                 </div>
             </>
-        )
-    }
+        );
+    };
+
+    const renderHeaderBar = () => {
+        return (
+            <div className={"header-bar" + (showBar ? "" : " d-none")}>
+                <input
+                    type="checkbox"
+                    name="menu-checkbox"
+                    id="menu-checkbox"
+                    className="menu-checkbox"
+                    hidden
+                />
+
+                <label htmlFor="menu-checkbox" className="menu-bar">
+                    <FontAwesomeIcon icon="fa-solid fa-bars-staggered" />
+                </label>
+
+                <label htmlFor="menu-checkbox" className="menu-overlay"></label>
+
+                <div className="menu-drawer">{renderHTML()}</div>
+            </div>
+        );
+    };
 
     return (
         <header className="header">
-            {
-                showBar ? (
-                    <div className="header-bar">
-                        <input type="checkbox" name="menu-checkbox" id="menu-checkbox" className='menu-checkbox' hidden />
+            {showBar ? (
+                renderHeaderBar()
+            ) : (
+                <>
+                    {renderHeaderBar()}
 
-                        <label htmlFor="menu-checkbox" className='menu-bar'>
-                            <FontAwesomeIcon icon="fa-solid fa-bars-staggered" />
-                        </label>
+                    <img
+                        src={srcBgHero}
+                        alt=""
+                        className={"header-bg" + (isDark ? " bg-dark" : "")}
+                    />
 
-                        <label htmlFor="menu-checkbox" className='menu-overlay'></label>
-
-                        <div className="menu-drawer">
-                            {renderHTML()}
-                        </div>
-                    </div>
-                ) : (
-                    <>
-                        <img
-                            src={srcBgHero}
-                            alt=""
-                            className={"header-bg" + (isDark ? " bg-dark" : "")}
-                        />
-
-                        <div className="header-top">
-                            <div className="container">
-                                <div className="header-top-wrapper">
-                                    {renderHTML()}
-                                </div>
+                    <div className="header-top">
+                        <div className="container">
+                            <div className="header-top-wrapper">
+                                {renderHTML()}
                             </div>
                         </div>
-                    </>
-                )
-            }
+                    </div>
+                </>
+            )}
 
             {/* Hero */}
             {!showBar && <Hero />}

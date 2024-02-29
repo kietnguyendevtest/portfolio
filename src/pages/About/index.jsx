@@ -8,11 +8,11 @@ function About() {
         <section id="about" className="about-container">
             <div className="container">
                 <h2 className="hash-title">
-                    <span>ABOUT ME</span>
+                    <a href="#about">ABOUT ME</a>
                 </h2>
-                <div className="row row-cols-2">
+                <div className="row row-cols-2 row-cols-lg-1">
                     <div className="col">
-                        <figure>
+                        <figure className="about-img">
                             <Lottie
                                 options={{
                                     loop: true,
@@ -22,16 +22,15 @@ function About() {
                                         preserveAspectRatio: "xMidYMid slice",
                                     },
                                 }}
-                                height={400}
-                                width={400}
                             />
                         </figure>
                     </div>
                     <div className="col">
                         <p className="about-title">
                             A passionate Full Stack Software Developer who loves
-                            clean, simple & unique design. Strengths are Back-end
-                            web application development and Front-end technology.
+                            clean, simple & unique design. Strengths are
+                            Back-end web application development and Front-end
+                            technology.
                         </p>
                         <ul className="about-desc">
                             <li>
@@ -57,8 +56,8 @@ function About() {
                             <li>
                                 <FontAwesomeIcon icon="fa-solid fa-graduation-cap" />
                                 <span>
-                                    HUIT - Ho Chi Minh City University of Industry
-                                    and Trade
+                                    HUIT - Ho Chi Minh City University of
+                                    Industry and Trade
                                 </span>
                             </li>
                             <li>

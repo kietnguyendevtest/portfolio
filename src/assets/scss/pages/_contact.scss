@@ -1,16 +1,43 @@
+@use "../abstracts";
+
 .contact-container {
     min-height: 50vh;
     padding: 170px 0;
     position: relative;
     background-color: var(--body-bg-bold);
 
+    @include abstracts.screen(lg) {
+        padding: 100px 0;
+    }
+
+    .col:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col:last-child {
+        display: flex;
+        justify-content: center;
+    }
+
     .contact-title {
         font-size: 2rem;
         line-height: 30px;
+
+        @include abstracts.screen(md) {
+            font-size: 1.7rem;
+        }
     }
 
     ul {
         margin: 35px 0;
+
+        li {
+            @include abstracts.screen(md) {
+                font-size: 1.5rem;
+            }
+        }
 
         li + li {
             margin-top: 15px;
@@ -47,7 +74,11 @@
             content: "";
             position: absolute;
             width: 100px;
-            background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+            background-image: linear-gradient(
+                180deg,
+                rgb(0, 183, 255),
+                rgb(255, 48, 255)
+            );
             height: 130%;
             animation: rotBGimg 3s linear infinite;
             transition: all 0.2s linear;
@@ -79,5 +110,11 @@
         transform: translateX(-50%);
 
         font-size: 1.3rem;
+
+        @include abstracts.screen(md) {
+            left: unset;
+            transform: unset;
+            text-align: center;
+        }
     }
 }
