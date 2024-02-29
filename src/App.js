@@ -44,10 +44,7 @@ function App() {
             {showGoToTop && (
                 <button
                     className="btn-scrolltop"
-                    onClick={() => {
-                        setShowGoToTop(false);
-                        window.scrollTo(0, 0);
-                    }}
+                    onClick={() => window.scrollTo(0, 0)}
                 >
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0h24v24H0z" fill="none"></path>

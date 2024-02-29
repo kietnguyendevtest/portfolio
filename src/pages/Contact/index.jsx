@@ -4,7 +4,7 @@ import Social from "~/components/Social";
 
 function Contact() {
     return (
-        <section id="contact" className="contact-container" style={{ height: "100vh" }}>
+        <section id="contact" className="contact-container">
             <div className="container">
                 <h2 className="hash-title">
                     <span>REACH OUT TO ME!</span>
@@ -34,7 +34,7 @@ function Contact() {
                     </div>
                 </div>
                 <footer className="footer">
-                    Copyright © 2024. All right reserved | This website is made
+                    Copyright © 2024. All right reserved. This website is made
                     with by kietnm
                 </footer>
             </div>
