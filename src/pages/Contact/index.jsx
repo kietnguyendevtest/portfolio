@@ -14,8 +14,7 @@ function Contact() {
                         <div>
                             <p className="contact-title">
                                 &#10077; Discuss a project or just want to say
-                                hi? <br />
-                                My inbox is open for all. &#10078;
+                                hi? My inbox is open for all. &#10078;
                             </p>
 
                             <ul>

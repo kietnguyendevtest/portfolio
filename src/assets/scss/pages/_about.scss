@@ -17,16 +17,25 @@
 .about-desc {
     margin-top: 35px;
 
+    @include abstracts.screen(md) {
+        margin-top: 20px;
+    }
+
     li {
         display: flex;
     }
 
     li + li {
         margin-top: 23px;
+
+        @include abstracts.screen(md) {
+            margin-top: 15px;
+        }
     }
 
     svg {
         width: 63px;
+        margin-top: 3px;
     }
 
     span {

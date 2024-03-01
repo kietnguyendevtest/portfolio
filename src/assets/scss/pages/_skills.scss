@@ -17,7 +17,6 @@
 .skills-title {
     font-size: 2rem;
     line-height: 30px;
-    margin-bottom: 15px;
 }
 
 .skills-group {
@@ -61,6 +60,10 @@
 
 .skills-desc {
     margin-top: 10px;
+
+    @include abstracts.screen(md) {
+        margin-top: 0;
+    }
 
     ul li {
         margin-top: 12px;
