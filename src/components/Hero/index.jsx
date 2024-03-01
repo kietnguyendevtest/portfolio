@@ -12,8 +12,8 @@ function Hero() {
                 "Front-end Developer",
                 "UI/UX Designer",
             ],
-            typeSpeed: 50,
-            backSpeed: 50,
+            typeSpeed: 80,
+            backSpeed: 80,
             loop: true,
         };
         typed.current = new Typed(el.current, options);

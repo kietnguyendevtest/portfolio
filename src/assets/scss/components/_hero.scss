@@ -13,6 +13,11 @@
     align-items: center;
     flex-direction: column;
     color: var(--text-color);
+
+    @include abstracts.screen(md) {
+        justify-content: unset;
+        margin-top: 150px;
+    }
 }
 
 .hero-title {
@@ -22,13 +27,21 @@
     font-size: 3.6rem;
     font-weight: 600;
     line-height: 63px;
-    text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%),
-        0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%),
-        0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%),
-        0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%),
-        0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2),
-        0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2),
-        0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);
+    text-shadow:
+        0 1px 0 hsl(174, 5%, 80%),
+        0 2px 0 hsl(174, 5%, 75%),
+        0 3px 0 hsl(174, 5%, 70%),
+        0 4px 0 hsl(174, 5%, 66%),
+        0 5px 0 hsl(174, 5%, 64%),
+        0 6px 0 hsl(174, 5%, 62%),
+        0 7px 0 hsl(174, 5%, 61%),
+        0 8px 0 hsl(174, 5%, 60%),
+        0 0 5px rgba(0, 0, 0, 0.05),
+        0 1px 3px rgba(0, 0, 0, 0.2),
+        0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.2),
+        0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.3);
 
     @include abstracts.screen(md) {
         font-size: 3.2rem;
@@ -57,6 +70,10 @@
     left: 50%;
     cursor: pointer;
 
+    @include abstracts.screen(md) {
+        bottom: 120px;
+    }
+
     .mouse-btn {
         width: 24px;
         height: 38px;
@@ -71,11 +88,7 @@
         display: block;
         width: 3px;
         height: 10px;
-        background: linear-gradient(
-            170deg,
-            rgba(122, 122, 124, 0.918),
-            rgb(123, 124, 124)
-        );
+        background: linear-gradient(170deg, rgba(122, 122, 124, 0.918), rgb(123, 124, 124));
         border-radius: 4px;
         margin: auto;
         animation: scrolling 1.5s linear infinite;
