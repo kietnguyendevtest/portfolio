@@ -9,9 +9,10 @@ import Header from "~/components/Header";
 import About from "~/pages/About";
 import Skills from "./pages/Skills";
 import Projects from "~/pages/Projects";
+import Contact from "./pages/Contact";
 
 import "~/assets/scss/main.scss";
-import Contact from "./pages/Contact";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
     library.add(fas, far, fab);
@@ -50,13 +51,7 @@ function App() {
                     className="btn-scrolltop"
                     onClick={() => window.scrollTo(0, 0)}
                 >
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 0h24v24H0z" fill="var(--body-bg-bold)"></path>
-                        <path
-                            fill="var(--text-color)"
-                            d="M11.9997 10.8284L7.04996 15.7782L5.63574 14.364L11.9997 8L18.3637 14.364L16.9495 15.7782L11.9997 10.8284Z"
-                        ></path>
-                    </svg>
+                    <FontAwesomeIcon icon="fa-solid fa-arrow-up" />
                 </button>
             )}
         </>

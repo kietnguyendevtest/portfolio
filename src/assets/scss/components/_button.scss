@@ -1,15 +1,13 @@
 .btn-scrolltop {
     z-index: 9999;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-
+    bottom: 24px;
+    right: 24px;
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background-color: rgba(29, 29, 31, 0.7);
+    background-color: var(--body-bg-bold);
     backdrop-filter: saturate(180%) blur(20px);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
     display: flex;
     align-items: center;
     justify-content: center;
