@@ -31,6 +31,11 @@ function Header(props) {
                 {/* Navbar */}
                 <nav className="navbar d-md-none">
                     <ul className="navbar__list">
+                        {showBar && (
+                            <li className="navbar__item">
+                                <a href="#">Home</a>
+                            </li>
+                        )}
                         <li className="navbar__item">
                             <a href="#about">About</a>
                         </li>

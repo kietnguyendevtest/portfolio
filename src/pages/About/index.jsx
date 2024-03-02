@@ -11,7 +11,7 @@ function About() {
                     <a href="#about">ABOUT ME</a>
                 </h2>
                 <div className="row row-cols-2 row-cols-lg-1">
-                    <div className="col">
+                    <div className="col" data-aos="animate__fadeInLeft">
                         <figure className="about-img">
                             <Lottie
                                 options={{
@@ -25,7 +25,7 @@ function About() {
                             />
                         </figure>
                     </div>
-                    <div className="col">
+                    <div className="col" data-aos="animate__fadeInRight">
                         <p className="about-title">
                             A passionate Full Stack Software Developer who loves
                             clean, simple & unique design. Strengths are
@@ -47,7 +47,7 @@ function About() {
                             </li>
                             <li>
                                 <FontAwesomeIcon icon="fa-solid fa-phone-flip" />
-                                <span>0964 4567 24</span>
+                                <span>0909 144 706</span>
                             </li>
                             <li>
                                 <FontAwesomeIcon icon="fa-solid fa-envelope" />

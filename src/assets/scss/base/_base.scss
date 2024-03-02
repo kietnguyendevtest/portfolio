@@ -25,6 +25,7 @@ body {
     font-family: Poppins, sans-serif;
     color: var(--text-color);
     background: var(--body-bg);
+    overflow-x: hidden;
 }
 
 a {
@@ -89,4 +90,11 @@ input:-webkit-autofill:hover {
         margin-bottom: 40px;
         font-size: 3.6rem;
     }
+}
+
+[data-aos] {
+    visibility: hidden;
+}
+[data-aos].animate__animated {
+    visibility: visible;
 }

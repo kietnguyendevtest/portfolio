@@ -26,7 +26,7 @@ function Hero() {
     return (
         <div className="hero">
             <div className="hero-content">
-                <div className="hero-title">
+                <div className="hero-title" data-aos="animate__zoomIn">
                     <h1>HI, I'M NGUYEN&nbsp;MINH&nbsp;KIET</h1>
                 </div>
                 <div className="hero-textrun">
