@@ -10,7 +10,7 @@ function Skills() {
                     <a href="#skills">WHAT I DO</a>
                 </h2>
                 <div className="row row-cols-2 row-cols-lg-1">
-                    <div className="col" data-aos="animate__slideInLeft">
+                    <div className="col" data-aos="animate__zoomIn">
                         <p className="skills-title">
                             Crazy full stack developer who wants to explore
                             every tech stack.
@@ -56,7 +56,7 @@ function Skills() {
                             </li>
                         </ul>
                     </div>
-                    <div className="col" data-aos="animate__slideInRight">
+                    <div className="col" data-aos="animate__zoomIn">
                         <figure className="skills-img">
                             <Lottie
                                 options={{

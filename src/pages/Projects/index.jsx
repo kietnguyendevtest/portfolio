@@ -18,10 +18,7 @@ function Projects() {
                     <a href="#projects">PROJECTS</a>
                 </h2>
 
-                <div
-                    className="row row-cols-xxl-3 row-cols-lg-2 row-cols-md-1 gy-4"
-                    data-aos="animate__slideInUp"
-                >
+                <div className="row row-cols-xxl-3 row-cols-lg-2 row-cols-md-1 gy-4">
                     {data.map((item, index) => {
                         return (
                             <div className="col" key={index}>
