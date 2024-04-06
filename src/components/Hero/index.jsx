@@ -10,7 +10,6 @@ function Hero() {
             strings: [
                 "Software Engineer",
                 "Front-end Developer",
-                "UI/UX Designer",
             ],
             typeSpeed: 80,
             backSpeed: 80,

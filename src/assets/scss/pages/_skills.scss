@@ -2,7 +2,7 @@
 
 .skills-container {
     min-height: 100vh;
-    padding: 170px 0;
+    padding: 70px 0;
     background-color: var(--body-bg-bold);
 
     @include abstracts.screen(lg) {
@@ -17,6 +17,10 @@
 .skills-title {
     font-size: 2rem;
     line-height: 30px;
+
+    @include abstracts.screen(md) {
+        font-size: 1.8rem;
+    }
 }
 
 .skills-group {

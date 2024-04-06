@@ -26,12 +26,26 @@ function About() {
                         </figure>
                     </div>
                     <div className="col" data-aos="animate__fadeInRight">
+                        <blockquote className="about-title">
+                            &#10077;&nbsp;I'm a Software Engineer who loves simplicity, neatness and uniqueness.&nbsp;&#10078;
+                        </blockquote>
+                        <br />
                         <p className="about-title">
-                            A passionate Full Stack Software Developer who loves
-                            clean, simple & unique design. Strengths are
-                            Back-end web application development and Front-end
-                            technology.
+                            I started learning programming when I was 20 years old and it only took me six months to write my first
+                            application using my programming skills. Since then, I became a website programmer with nearly 3
+                            years of experience, working as a front-end dev for 2 companies, along with a few personal projects.
+
                         </p>
+                        <br />
+                        <p className="about-title">
+                            Thanks to that, I have experience in front-end and back-end.
+                        </p>
+                        <br />
+                        <p className="about-title">
+                            In recent years, I have been very focused on programming and website development. Now I am very
+                            confident that my abilities can meet the requirements of the business.
+                        </p>
+
                         <ul className="about-desc">
                             <li>
                                 <FontAwesomeIcon icon="fa-solid fa-user" />
@@ -51,7 +65,7 @@ function About() {
                             </li>
                             <li>
                                 <FontAwesomeIcon icon="fa-solid fa-envelope" />
-                                <span>kietnguyen.contact@gmail.com</span>
+                                <span>kietnm.contact@gmail.com</span>
                             </li>
                             <li>
                                 <FontAwesomeIcon icon="fa-solid fa-graduation-cap" />

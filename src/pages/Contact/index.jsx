@@ -12,17 +12,17 @@ function Contact() {
                 <div className="row row-cols-2 row-cols-lg-1 gy-4">
                     <div className="col">
                         <div>
-                            <p
+                            <blockquote
                                 className="contact-title"
                                 data-aos="animate__pulse"
                             >
-                                &#10077; Discuss a project or just want to say
-                                hi? <br /> My inbox is open for all. &#10078;
-                            </p>
+                                &#10077;&nbsp;Discuss a project or just want to say
+                                hi? <br /> My inbox is open for all.&nbsp;&#10078;
+                            </blockquote>
 
                             <ul>
                                 <li>
-                                    <b>Email:</b> kietnguyen.contact@gmail.com
+                                    <b>Email:</b> kietnm.contact@gmail.com
                                 </li>
                                 <li>
                                     <b>Phone:</b> 0909 144 706
