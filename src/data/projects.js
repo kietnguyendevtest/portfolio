@@ -4,7 +4,7 @@ const dataProjects = [
         title: "Ecommerce website",
         desc: "Build and develop ecommerce website",
         tech: "HTML, CSS, SCSS, JS",
-        link: "https://nmkiet.io.vn",
+        link: "https://kietnm-ecommerce.vercel.app",
     },
     {
         project_name: "CeloBank",

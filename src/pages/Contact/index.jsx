@@ -39,7 +39,7 @@ function Contact() {
                     </div>
                 </div>
                 <footer className="footer">
-                    Copyright © 2024. All right reserved. This website is made
+                    Copyright © {new Date().getFullYear() || '2024'}. All right reserved. This website is made
                     with by kietnm
                 </footer>
             </div>
