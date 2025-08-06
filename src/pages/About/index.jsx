@@ -32,8 +32,8 @@ function About() {
                         <br />
                         <p className="about-title">
                             I started learning programming when I was 20 years old and it only took me six months to write my first
-                            application using my programming skills. Since then, I became a website programmer with nearly 3
-                            years of experience, working as a front-end dev for 2 companies, along with a few personal projects.
+                            application using my programming skills. Since then, I became a website programmer with nearly 5
+                            years of experience, working as a front-end dev for 2 companies, along with a few personal projects and freelance.
 
                         </p>
                         <br />

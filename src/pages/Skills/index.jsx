@@ -42,7 +42,7 @@ function Skills() {
                                     <li>&#8226;&nbsp; HTML, CSS, Responsive, SASS (7-1 pattern)</li>
                                     <li>&#8226;&nbsp; Semantic, SEO</li>
                                     <li>
-                                        &#8226;&nbsp; Boostrap, Material UI, TailwindCss, AG-Grid, Telerik UI,...
+                                        &#8226;&nbsp; Boostrap, Material UI, Ant Design, TailwindCss, AG-Grid, Telerik UI, Highcharts,...
                                     </li>
                                 </ul>
                             </li>
