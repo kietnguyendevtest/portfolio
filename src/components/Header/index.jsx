@@ -27,7 +27,6 @@ function Header(props) {
                     <img src={images.logo} alt="Logo" />
                 </a>
 
-                {/* Navbar */}
                 <nav className="navbar d-md-none">
                     <ul className="navbar__list">
                         {showBar && (
