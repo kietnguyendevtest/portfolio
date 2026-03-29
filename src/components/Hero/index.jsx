@@ -9,7 +9,7 @@ function Hero() {
         const options = {
             strings: [
                 "Software Engineer",
-                "Front-end Developer",
+                "Full-stack Developer",
             ],
             typeSpeed: 80,
             backSpeed: 80,

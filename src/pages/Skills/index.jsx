@@ -22,9 +22,9 @@ function Skills() {
                                 </div>
                                 <ul>
                                     <li>
-                                        &#8226;&nbsp; JavaScript, TypeScript
+                                        &#8226;&nbsp; JavaScript (TypeScript)
                                     </li>
-                                    <li>&#8226;&nbsp; C# .Net</li>
+                                    <li>&#8226;&nbsp; .Net (C#), Java, PHP</li>
                                     <li>
                                         &#10149; I'm quite confident that I can catch up with other languages when needed very fast
                                     </li>
@@ -36,13 +36,11 @@ function Skills() {
                                 </div>
                                 <ul>
                                     <li>
-                                        &#8226;&nbsp; ReactJS: Hook, Redux, Formik, React Hook Form, Yup, React Query, Axios,...
+                                        &#8226;&nbsp; ReactJS, NextJS (TypeScript):  Hook, Redux, Zustand, React Query, React Hook Form, Yup, Formik, Axios, Vite
                                     </li>
-                                    <li>&#8226;&nbsp; NextJS (TypeScript)</li>
-                                    <li>&#8226;&nbsp; HTML, CSS, Responsive, SASS (7-1 pattern)</li>
-                                    <li>&#8226;&nbsp; Semantic, SEO</li>
+                                    <li>&#8226;&nbsp; HTML, CSS, Responsive, SASS (7-1 pattern), Semantic, SEO</li>
                                     <li>
-                                        &#8226;&nbsp; Boostrap, Material UI, Ant Design, TailwindCss, AG-Grid, Telerik UI, Highcharts,...
+                                        &#8226;&nbsp; Ant Design, Tailwind, MUI, Boostrap, AG-Grid, Telerik UI, Highcharts
                                     </li>
                                 </ul>
                             </li>
@@ -56,13 +54,19 @@ function Skills() {
                                         &#8226;&nbsp; Frameworks/Libraries: Node.js, Express.js, ASP․NET Core
                                     </li>
                                     <li>
-                                        &#8226;&nbsp; OOP, Web socket SignalR
+                                        &#8226;&nbsp; OOP, WebSocket (SignalR)
                                     </li>
                                     <li>
-                                        &#8226;&nbsp; Database: SQL Server
-                                        (Store Procedure, Function,
-                                        Trigger,...), Postgres, MongoDB
+                                        &#8226;&nbsp; Database:  MongoDB, MS SQL (Store Procedure, Function, Trigger,...), MySQL, PostgreSQL
                                     </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div className="skills-group">
+                                    <span>DevOps</span>
+                                </div>
+                                <ul>
+                                    <li>&#8226;&nbsp; Linux, Docker, IIS</li>
                                 </ul>
                             </li>
                             <li>
@@ -70,13 +74,7 @@ function Skills() {
                                     <span>Dev Tools</span>
                                 </div>
                                 <ul>
-                                    <li>&#8226;&nbsp; Git, Github, Gitlab</li>
-                                    <li>
-                                        &#8226;&nbsp; Postman, VS Code, Figma
-                                    </li>
-                                    <li>
-                                        &#8226;&nbsp; React Developer Tool, Redux Dev Tool
-                                    </li>
+                                    <li>&#8226;&nbsp; Git, Github, Gitlab, Postman, VS Code, Figma, React Developer Tool, Redux Dev Tool</li>
                                 </ul>
                             </li>
                         </ul>
