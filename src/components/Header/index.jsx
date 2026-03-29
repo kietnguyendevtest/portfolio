@@ -23,7 +23,6 @@ function Header(props) {
     const renderHTML = () => {
         return (
             <>
-                {/* Logo */}
                 <a href="/" className="logo">
                     <img src={images.logo} alt="Logo" />
                 </a>
