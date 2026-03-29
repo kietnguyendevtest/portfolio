@@ -114,7 +114,6 @@ function Header(props) {
                 </>
             )}
 
-            {/* Hero */}
             {!showBar && <Hero />}
         </header>
     );
