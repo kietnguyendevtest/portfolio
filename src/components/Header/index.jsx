@@ -49,7 +49,6 @@ function Header(props) {
                     </ul>
                 </nav>
 
-                {/* Action */}
                 <div className="header-action d-md-none">
                     <label className="ui-switch">
                         <input
