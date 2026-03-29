@@ -31,7 +31,7 @@ function Header(props) {
                     <ul className="navbar__list">
                         {showBar && (
                             <li className="navbar__item">
-                                <a href="#">Home</a>
+                                <a href="/">Home</a>
                             </li>
                         )}
                         <li className="navbar__item">
